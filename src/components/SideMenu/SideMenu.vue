@@ -23,13 +23,55 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-    { name: 'menu.home', route: '/', icon: HomeIcon, isActive: true, hideMobile: false },
-    { name: 'menu.training', route: '/', icon: TrainingIcon, isActive: false, hideMobile: false },
-    { name: 'menu.projects', route: '/', icon: ProjectIcon, isActive: false, hideMobile: false },
-    { name: 'menu.orders', route: '/', icon: OrderIcon, isActive: false, hideMobile: false },
-    { name: 'menu.documents', route: '/', icon: DocumentIcon, isActive: false, hideMobile: false },
-    { name: 'menu.incidents', route: '/', icon: IncidentIcon, isActive: false, hideMobile: false },
-    { name: 'menu.profile', route: '/', icon: AccountIcon, isActive: false, hideMobile: true },
+    {
+        name: 'menu.home',
+        route: '/ppms-homepage/',
+        icon: HomeIcon,
+        isActive: true,
+        hideMobile: false,
+    },
+    {
+        name: 'menu.training',
+        route: '/ppms-homepage/',
+        icon: TrainingIcon,
+        isActive: false,
+        hideMobile: false,
+    },
+    {
+        name: 'menu.projects',
+        route: '/ppms-homepage/',
+        icon: ProjectIcon,
+        isActive: false,
+        hideMobile: false,
+    },
+    {
+        name: 'menu.orders',
+        route: '/ppms-homepage/',
+        icon: OrderIcon,
+        isActive: false,
+        hideMobile: false,
+    },
+    {
+        name: 'menu.documents',
+        route: '/ppms-homepage/',
+        icon: DocumentIcon,
+        isActive: false,
+        hideMobile: false,
+    },
+    {
+        name: 'menu.incidents',
+        route: '/ppms-homepage/',
+        icon: IncidentIcon,
+        isActive: false,
+        hideMobile: false,
+    },
+    {
+        name: 'menu.profile',
+        route: '/ppms-homepage/',
+        icon: AccountIcon,
+        isActive: false,
+        hideMobile: true,
+    },
 ];
 
 const toggleTheme = (event: Event) => {
@@ -59,8 +101,8 @@ document.addEventListener('click', (event: MouseEvent) => {
             <div class="close-icon">
                 <CloseIcon @click="() => (store.sideMenuOpened = false)" />
             </div>
-            <a href="/" class="logo" :aria-label="$t('menu.home')">
-                <img src="/logo.png" alt="Logo" />
+            <a href="/ppms-homepage/" class="logo" :aria-label="$t('menu.home')">
+                <img src="../../assets/images/logo.png" alt="Logo" />
                 <p>PPMS</p>
             </a>
             <ul>
@@ -89,7 +131,7 @@ document.addEventListener('click', (event: MouseEvent) => {
             </button>
         </div>
         <br />
-        <a href="/" class="logout">
+        <a href="/ppms-homepage/" class="logout">
             <LogoutIcon />
             <p class="small-text">{{ $t('menu.logout') }}</p>
         </a>

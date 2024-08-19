@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import InformationIcon from '../components/icons/InformationIcon.vue';
-const logoPath = 'public/logo_name.png';
 </script>
 
 <template>
@@ -9,7 +8,7 @@ const logoPath = 'public/logo_name.png';
             <InformationIcon />
             {{ $t('footer.contact-us') }}
         </a>
-        <img :src="logoPath" alt="Logo" />
+        <img src="../assets/images/logo_name.png" alt="Logo name" />
         <p>{{ $t('footer.version') }}</p>
     </footer>
 </template>

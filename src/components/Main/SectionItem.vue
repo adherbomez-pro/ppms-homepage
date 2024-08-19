@@ -11,7 +11,7 @@ const isRequestStatus = Object.values(RequestStatus).includes(props.value as Req
 
 <template>
     <div class="item-list">
-        <a href="/" class="input-text">{{ label }}</a>
+        <a href="/ppms-homepage/" class="input-text">{{ label }}</a>
         <Chips v-if="isRequestStatus" :value="value" />
         <p v-else class="value">{{ value }}</p>
     </div>
