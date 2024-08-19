@@ -5,7 +5,7 @@
 The **PPMS Dashboard** is a customizable, user-friendly interface designed for efficient project management. This dashboard allows users to select which sections to display on the homepage, offering a streamlined experience tailored to specific needs.
 
 If you want to see the project deployed without installation:
-
+https://adherbomez-pro.github.io/ppms-homepage/
 
 ## Key Features
 
@@ -27,10 +27,10 @@ To ensure a fully accessible and performant application, the project has been au
 
 You can view the detailed Lighthouse reports here:
 
--   **Desktop Light Mode**: [View Report](#)
--   **Desktop Dark Mode**: [View Report](#)
--   **Mobile Light Mode**: [View Report](#)
--   **Mobile Dark Mode**: [View Report](#)
+-   **Desktop Light Mode**: [View Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://adherbomez-pro.github.io/ppms-homepage%2F&strategy=desktop&category=accessibility&category=best-practices&locale=en-US&utm_source=lh-chrome-ext)
+-   **Desktop Dark Mode**: [View Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://adherbomez-pro.github.io/ppms-homepage%2F%3Fforce-dark-mode%3Dtrue&strategy=desktop&category=accessibility&category=best-practices&locale=en-US&utm_source=lh-chrome-ext)
+-   **Mobile Light Mode**: [View Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://adherbomez-pro.github.io/ppms-homepage%2F&strategy=mobile&category=accessibility&category=best-practices&locale=en-US&utm_source=lh-chrome-ext)
+-   **Mobile Dark Mode**: [View Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://adherbomez-pro.github.io/ppms-homepage%2F%3Fforce-dark-mode%3Dtrue&strategy=mobile&category=accessibility&category=best-practices&locale=en-US&utm_source=lh-chrome-ext)
 
 ## Figma Design Access
 
