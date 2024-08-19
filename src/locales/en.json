@@ -1,0 +1,44 @@
+{
+    "title": {
+        "home": "Homepage"
+    },
+    "dashboard": {
+        "empty-message": "There is no section configured, click \"Organize\" button to customize your dashboard."
+    },
+    "organize-modal": {
+        "title": "Organize my sections",
+        "description": "Check the sections you want to see on your homepage",
+        "confirm": "Confirm"
+    },
+    "menu": {
+        "home": "Home",
+        "training": "Training",
+        "projects": "Projects",
+        "orders": "Orders",
+        "documents": "Documents",
+        "incidents": "Incidents",
+        "profile": "My profile",
+        "logout": "Logout",
+        "language":"Language"
+    },
+    "button": {
+        "organize": "Organize",
+        "edit": "Edit"
+    },
+    "footer": {
+        "contact-us": "Contact us",
+        "version": "PPMS - Version 1.0"
+    },
+    "chips": {
+        "pending_approval": "Pending approval",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+    },
+    "theme": {
+        "dark": "Dark mode",
+        "light": "Light mode"
+    },
+    "not_found": "Page Not Found",
+    "not_implemented": "Feature not implemented yet."
+}

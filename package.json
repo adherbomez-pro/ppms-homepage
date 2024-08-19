@@ -1,0 +1,25 @@
+{
+    "name": "website",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "npx vue-tsc -b && vite build",
+        "preview": "npx vite preview"
+    },
+    "dependencies": {
+        "vue": "^3.4.35",
+        "vue-i18n": "^9.13.1"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.1.2",
+        "eslint-plugin-jsx-a11y": "^6.9.0",
+        "pa11y": "^8.0.0",
+        "prettier": "^3.3.3",
+        "prettier-eslint": "^16.3.0",
+        "typescript": "^5.5.3",
+        "vite": "^5.4.0",
+        "vue-tsc": "^2.0.29"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "title": {
+        "home": "Accueil"
+    },
+    "dashboard": {
+        "empty-message": "Aucune section configurée, cliquer sur le bouton \"Organiser\" pour personnaliser votre tableau de bord."
+    },
+    "organize-modal": {
+        "title": "Organiser les sections",
+        "description": "Cocher les sections à afficher sur le tableau de bord.",
+        "confirm": "Valider"
+    },
+    "menu": {
+        "home": "Accueil",
+        "training": "Entraînements",
+        "projects": "Projets",
+        "orders": "Commandes",
+        "documents": "Documents",
+        "incidents": "Incidents",
+        "profile": "Mon profil",
+        "logout": "Déconnexion",
+        "language":"Langue"
+
+    },
+    "button": {
+        "organize": "Organiser",
+        "edit": "Modifier"
+    },
+    "footer": {
+        "contact-us": "Contactez nous",
+        "version": "PPMS - Version 1.0"
+    },
+    "chips": {
+        "pending_approval": "En attente d'appropation",
+        "pending": "En attente",
+        "approved": "Approuvé(e)",
+        "rejected": "Refusé(e)"
+    },
+    "theme": {
+        "dark": "Mode sombre",
+        "light": "Mode clair"
+    },
+    "not_found": "Page introuvable",
+    "not_implemented": "Fonctionnalité en cours de développement"
+}
