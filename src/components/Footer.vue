@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import InformationIcon from '../components/icons/InformationIcon.vue';
-const logoPath = '/logo_name.png';
+const logoPath = 'public/logo_name.png';
 </script>
 
 <template>
