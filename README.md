@@ -11,13 +11,15 @@ https://adherbomez-pro.github.io/ppms-homepage/
 
 -   **Customizable Interface**: Easily select and organize sections to be displayed on the homepage.
 -   **Light & Dark Mode Support**: Seamlessly switch between themes based on user preferences.
--   **WCAG Compliance**: Adheres to Web Content Accessibility Guidelines (WCAG) to ensure a fully accessible experience for all users.
+-   **WCAG level AAA**: Adheres to Web Content Accessibility Guidelines (WCAG) to ensure a fully accessible experience for all users.
 -   **Responsive Design**: Optimized for all device types, ensuring a consistent experience across platforms.
 
 ## Technologies Used
 
 -   **Vue 3**: Framework for building interactive and modern web interfaces.
--   **CSS3 with Custom Properties**: Leveraging CSS variables for theme management and style consistency.
+-   **Vite.js**: A fast build tool and development server for modern web projects, optimizing the developer experience.
+-   **TypeScript**: A typed programming language that builds on JavaScript.
+-   **CSS**: Leveraging CSS variables for theme management and style consistency.
 -   **Figma**: Used for UI/UX design and prototyping.
 -   **Lighthouse**: Performance and accessibility audits to ensure high standards across different themes and devices.
 
