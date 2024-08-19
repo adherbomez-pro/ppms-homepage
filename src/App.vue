@@ -7,7 +7,7 @@ import MobileHeader from './components/SideMenu/MobileHeader.vue';
 import OrganizeModal from './components/OrganizeModal.vue';
 import { store } from './utils/store.ts';
 
-const routes = new Map<string, Vue.Component>([['/', Home]]);
+const routes = new Map<string, Vue.Component>([['/ppms-homepage/', Home]]);
 
 const currentView = computed(() => routes.get(window.location.pathname) || NotFound);
 
