@@ -40,6 +40,11 @@ For a detailed understanding of the visual structure and design principles, you 
 
 This link showcases the design choices and provides insight into the UI/UX considerations made during development.
 
+## Dataset
+
+The application includes a structured dataset located in `src/config/dataset`. Each section is represented by a title, type, and a list of labels and values.
+The data is adapted using a `SectionAdapter` function, which transforms the raw data into a format suitable for rendering within the application. This modular approach allows easy expansion and customization of the dataset, ensuring flexibility for future enhancements.
+
 ## My Contributions
 
 During this project, I focused on:

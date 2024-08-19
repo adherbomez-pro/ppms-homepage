@@ -2,7 +2,7 @@ import { SectionType } from '../types/enum';
 
 interface RawSection {
     title: string;
-    type: string;
+    type?: string;
     labels: string[];
     values: string[];
 }
