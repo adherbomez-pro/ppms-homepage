@@ -93,6 +93,20 @@ document.addEventListener('click', (event: MouseEvent) => {
         }
     }
 });
+
+let resizeTimeout: ReturnType<typeof setTimeout>;
+
+// Remove transition when the window is resized
+window.addEventListener('resize', () => {
+    const sideMenu = document.querySelector('.side-menu');
+
+    sideMenu?.classList.add('no-transition');
+
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+        sideMenu?.classList.remove('no-transition');
+    }, 300);
+});
 </script>
 
 <template>
@@ -146,6 +160,7 @@ document.addEventListener('click', (event: MouseEvent) => {
     padding: var(--spacing-md);
     background-color: var(--color-background-secondary);
     color: var(--color-text-body);
+    user-select: none;
 }
 .side-menu .logo {
     display: flex;
@@ -200,6 +215,7 @@ li a {
 }
 .side-menu a:hover {
     background-color: var(--color-nav-hover);
+    transition: background-color var(--transition-speed);
 }
 .side-menu .is-active {
     background-color: var(--color-tertiary);
@@ -228,6 +244,9 @@ button:hover {
     flex-direction: column;
     gap: var(--spacing-xs);
 }
+.no-transition {
+    transition: none !important;
+}
 
 @media (max-width: 768px) {
     .side-menu {
@@ -237,16 +256,14 @@ button:hover {
         width: 250px;
         height: 100%;
         padding: 20px;
-        display: none;
-        transform: translateX(-100%);
-        z-index: 10;
         box-shadow: var(--elevation-sm);
-        border-radius: var(--border-radius-lg);
+        border-radius: 0 var(--border-radius-lg) 0 0;
+        transform: translateX(-100%);
+        transition: transform var(--transition-speed);
     }
 
     .side-menu.open {
-        transform: translateX(0);
-        display: block;
+        transform: translateX(0px);
     }
 
     .menu-toggle {

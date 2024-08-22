@@ -59,6 +59,7 @@ onMounted(() => {
 li:hover {
     background-color: var(--color-nav-hover);
     border-radius: var(--border-radius-rounded);
+    transition: background-color var(--transition-speed);
 }
 
 .title {

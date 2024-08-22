@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    user-select: none;
     padding: var(--spacing-sm) var(--spacing-md);
     a,
     p {
